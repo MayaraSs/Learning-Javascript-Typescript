@@ -1,4 +1,4 @@
-#Back-end com Node.js
+# Back-end com Node.js
 
 - [x] Criando projeto Node
 
@@ -20,3 +20,13 @@
 - [x] Utilizando o Insomnia
 
   - Ferramenta que será utilizada para testar o retorno das rotas.
+
+- [x] Tipos de Parâmetros
+
+  - Query Params: Filtros e paginação
+  - Route Params: Identificar recursos (Atualizar / Deletar)
+  - Request Body: COnteúdo na hora de criar ou editar um recurso (JSON).
+
+- [x] Aplicação Funcional
+
+  - Será utilizado os conhcimento até o momento para criar a API que irá conseguir manter projetos (armazenar, deletar, criar e deletar). Crio a variável que será um array que armazenará as informaçõs da aplicação. Adiciono a biblioteca yarn add uuidv4 para gerar o id.
