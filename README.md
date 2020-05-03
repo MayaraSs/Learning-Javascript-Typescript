@@ -16,3 +16,7 @@
   - POST: Cria uma informação no back-end.
   - PUT: Altera uma informação no back-end.
   - DELTE: Deleta uma informação no back-end.
+
+- [x] Utilizando o Insomnia
+
+  - Ferramenta que será utilizada para testar o retorno das rotas.
