@@ -8,3 +8,9 @@
 
 - [x] Configurando o Nodemon
       Para executar a aplicação utilizo o comando: node src/index.js. Para fazer a atualização automática sem tem que ficar parando o servidor, foi instalado o Nodemon. Comando: yarn add nodemon -D. Acessei o package.json em baixo de license adicionei o campo scripts para adicionar o atalho "dev" para executar o servidor.
+
+- [x] Métodos HTTP
+  - GET: Busca informações do back-end, ou seja, toda vez que estiver criando uma rota e ela tem como objetivo retornar algumas informações para o usuário é utilizado o método GET.
+  - POST: Cria uma informação no back-end.
+  - PUT: Altera uma informação no back-end.
+  - DELTE: Deleta uma informação no back-end.
