@@ -7,9 +7,11 @@
   - Para criar a rota eu chamo a aplicação e defino o método que quero utilizar e o primeiro parâmetro é o endereço que quero observar, o segundo parâmetro é uma função que recebe dois parâmetros (requisição e resposta). Todo retorno que uma rota ter, é preciso chamar o response porque é ele que envia a resposta para o front-end.
 
 - [x] Configurando o Nodemon
+
       Para executar a aplicação utilizo o comando: node src/index.js. Para fazer a atualização automática sem tem que ficar parando o servidor, foi instalado o Nodemon. Comando: yarn add nodemon -D. Acessei o package.json em baixo de license adicionei o campo scripts para adicionar o atalho "dev" para executar o servidor.
 
 - [x] Métodos HTTP
+
   - GET: Busca informações do back-end, ou seja, toda vez que estiver criando uma rota e ela tem como objetivo retornar algumas informações para o usuário é utilizado o método GET.
   - POST: Cria uma informação no back-end.
   - PUT: Altera uma informação no back-end.
