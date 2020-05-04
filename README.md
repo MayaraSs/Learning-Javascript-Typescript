@@ -29,4 +29,8 @@
 
 - [x] Aplicação Funcional
 
-  - Será utilizado os conhcimento até o momento para criar a API que irá conseguir manter projetos (armazenar, deletar, criar e deletar). Crio a variável que será um array que armazenará as informaçõs da aplicação. Adiciono a biblioteca yarn add uuidv4 para gerar o id.
+  - Será utilizado os conhcimento até o momento para criar a API que irá conseguir manter projetos (armazenar, deletar, criar e deletar). Crio a variável que será um array que armazenará as informaçõs da aplicação. Adiciono a biblioteca yarn add uuidv4 para gerar o id. E crio cada rota.
+
+- [x] Middlewares
+
+  - É um interceptador de requisições que interrompe totalmente a requisição ou altera os dados da requisição.
