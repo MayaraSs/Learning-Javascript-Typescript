@@ -28,14 +28,24 @@
 
     - Babel / Webpack: Como o browser nao entende todo esse código, o babel converte o código em JS . O Webpack faz a criação do bundle, arquivo com todo o códgio da aplicação, ensina o JS como importar os arquivos CSS, imagem e etc, Live reload.
 
-- [x] Configurando o projeto
+- [x] Configurando o projeto - Configurando o Babel
 
-  - Inicializo o yarn init -y. Crio a pasta src e public. Adiciono o yarn add react react-dom.
+                - Inicializei o yarn init -y. Crio a pasta src e public. Adiciono o yarn add react react-dom.
 
-  - Loaders: babel-loader (vai converter o JS para algo que o browse entenda), css-loader....
+                - Loaders: babel-loader (vai converter o JS para algo que o browse entenda), css-loader....
 
-  - Adiciono yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
+                - Adicionei yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
 
-  - Crio um arquivo chamado babel.config.js, ficará as configurações relacionadas ao babel
+                - Criei um arquivo chamado babel.config.js, ficará as configurações relacionadas ao babel
 
-  - Adiciono o yarn add @babel/cli que é uma interface por linha e comando, assim posso simplificar o uso do babel no terminal.
+                - Adicionei o yarn add @babel/cli que é uma interface por linha e comando, assim posso simplificar o uso do babel no terminal.
+
+        - Configurando Webpack
+
+                - Criei uma pasta chamada webpack.config.js
+
+                - Adiciono o yarn add babel-loader
+
+                - Adicionei o yarn webpack --node development
+
+                - Adicionei o yarn add webpack-dev-server -D é o servidor de desenvolvimento do Webpack.
