@@ -28,7 +28,9 @@
 
     - Babel / Webpack: Como o browser nao entende todo esse código, o babel converte o código em JS . O Webpack faz a criação do bundle, arquivo com todo o códgio da aplicação, ensina o JS como importar os arquivos CSS, imagem e etc, Live reload.
 
-- [x] Configurando o projeto - Configurando o Babel
+- [x] Configurando o projeto
+
+        - Configurando o Babel
 
                 - Inicializei o yarn init -y. Crio a pasta src e public. Adiciono o yarn add react react-dom.
 
@@ -49,3 +51,17 @@
                 - Adicionei o yarn webpack --node development
 
                 - Adicionei o yarn add webpack-dev-server -D é o servidor de desenvolvimento do Webpack.
+
+- [x] Componentização
+
+        -  É basicamente dividir pedaços da nossa aplicação em componentes.  Se for utilizar algum componentes em vários lugares é criado um componente um conjunto de código isolado que pode ser utilizado N vezes na aplicação.
+
+        - Dentro da div do index.html que vai todos os componentes criados pelo React.
+
+        - Quando criar um componente no React sempre vai usar letra maiúscula no arquivo.
+
+        - O componente no React é basicamente uma função
+
+        - JSX html dentro do Javascript
+
+        - Quando querer usar o mesmo comando um embaixo do outro no react é necessário inserir algo por fora como uma div ou pode utilizar o conceito de fragments que é utilizar apenas <> </>, assim não causa nenhum efeito na árvore de elementos.
