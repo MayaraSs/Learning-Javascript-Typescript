@@ -65,3 +65,7 @@
         - JSX html dentro do Javascript
 
         - Quando querer usar o mesmo comando um embaixo do outro no react é necessário inserir algo por fora como uma div ou pode utilizar o conceito de fragments que é utilizar apenas <> </>, assim não causa nenhum efeito na árvore de elementos.
+
+- [x] Propriedades - É alguma informação que queira passar de um componente pai para um filho.
+
+        - No react podemos usar a propriedade children para exibir todo o conteúdo da tag.
