@@ -34,3 +34,7 @@
 - [x] Middlewares
 
   - É um interceptador de requisições que interrompe totalmente a requisição ou altera os dados da requisição.
+
+  - Ele é uma função que sempre vai receber como parâmetro uma requisição e uma resposta e o next. O middlewares pode pega os mesmos tipos de parâmetros que as rotas utilizam.  
+
+  - Vou utilizar quando querer que algum techo do código seja disparado de forma automática em uma ou mais rotas da aplicação.  Como exemplo foi criado o middleware logRequests que será disparado de forma automática em todas as requisições, pois ele mostrará  no terminal qual a rota que está sendo chamada pelo insomnia. 

@@ -66,6 +66,32 @@
 
         - Quando querer usar o mesmo comando um embaixo do outro no react é necessário inserir algo por fora como uma div ou pode utilizar o conceito de fragments que é utilizar apenas <> </>, assim não causa nenhum efeito na árvore de elementos.
 
-- [x] Propriedades - É alguma informação que queira passar de um componente pai para um filho.
+- [x] Propriedades
+        
+       - É alguma informação que queira passar de um componente pai para um filho.
 
         - No react podemos usar a propriedade children para exibir todo o conteúdo da tag.
+
+- [x] Estado e Imutabilidade
+
+        -  useState retorna um array com duas posições, na primeira posição ele retorna a variável com seu valor inicial e a segunda uma função para atualizar esse valor.
+
+        - No react temos que evitar de alterar diretamente o valor original, então temos que criar uma nova informação.
+
+- [x] Importando CSS e imagens
+
+        -  Primeiro foi configurado um novo loader, criando uma nova regra dentro do arquivo webpack.  E adiciono os pacotes yarn add style-loader css-loader.  O css-loader vai conseguir ler os arquivos css e conseguir interpretar também as importações que existem dentro dos arquivos e o style-loader ele vai pegar a interpretação do css-loader e vai injetar dentro do html.
+
+        {
+                test: /\.css/,
+                exclude: /node_modules/,
+                use: [{ loader: "style-loader" }, { loader: "css-loader" }],
+      },
+
+      - Foi criada uma pasta chamada assets para armazenar os arquivos de imagem, foi scolhida uma imagem e importada no arquivo app.js .
+
+- [x] Listando Projetos da API
+
+        - Conectar o Back-end com o Front-end. Adiciono a biblioteca axios ele é o responsável por fazer a chamadas da API.
+
+        - Criei a pasta services que armazenará qualquer arquivo que irá fazer a comunicação com serviços externos. Criei um arquivo chamado api.js
