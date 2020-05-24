@@ -14,10 +14,21 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/, // converte todos os arquivo terminado em js
-        exclude: /node_modules/, //se os arquivos não estiver na pasta node_modules não precisa executar o babel
+        test: /\.js$/,
+        exclude: /node_modules/,
         use: {
-          loader: "babel-loader", //converte utilizando o babel
+          loader: "babel-loader",
+        },
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [{ loader: "style-loader" }, { loader: "css-loader" }],
+      },
+      {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: {
+          loader: "file-loader",
         },
       },
     ],

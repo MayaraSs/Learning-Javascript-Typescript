@@ -1,5 +1,4 @@
 import React from "react";
-import { ProgressPlugin } from "webpack";
 
 export default function Header({ title }) {
   return (
